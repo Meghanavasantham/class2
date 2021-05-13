@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My page</title>
+    </head>
+    
+    <body>
+        <form action="process.php">
+            <div >
+                <label for="name">NAME</label><br>
+                <input type="text" id="name" name="name">
+            </div>
+            <div>
+                <label for="email">EMAIL</label><br>
+                <input type="email" id="email" placeholder="enter an email">
+
+            </div>
+            <div>
+                <label for="message">Message</label><br>
+                <textarea name="message" id="msg" cols="50" rows="3" placeholder="Type a Message"></textarea>
+            </div>
+            <div>
+                <label for="gender">Gender</label><br>
+                <input type="radio" name="gender" value="male"> Male<br>
+                <input type="radio" name="gender" value="female"> Female<br>
+                <input type="radio" name="gender" value="other"> Other
+            </div>
+               
+            <div>
+                <label for="age">age</label><br>
+                <input type="number" id="number">
+            </div>
+            <div>
+                <label for="birthday">birthday</label>
+                <input type="date" id="birthday" name="birthday">
+            </div>
+            <div>
+                <label for="Membership">membership</label>
+                <input type="radio" name="Membership" value="Simple">Simple
+                <input type="radio" name="Membership" value="Standard">Standard
+                <input type="radio" name="Membership" value="Super">Super
+
+            </div>
+            <div>
+                 <label for="I like">I like</label>
+                 <input type="checkbox" name="I like" value="Bike"> Bike
+                 <input type="checkbox" name="I like" value="Car"> Car
+                 <input type="checkbox" name="I like" value="Airplane"> Airplane
+
+            </div>
+        </form>
+    </body>
+</html>
